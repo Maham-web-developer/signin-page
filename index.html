@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.8/css/line.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="container">
+        <div class="form-box">
+            <h1 id="title">Sign up</h1>
+            <form>
+                <div class="input-group">
+                    <div class="input-field" id="nameField">
+                        <i class="uil uil-user"></i>
+                        <input type="text" placeholder="Name" required>
+                    </div>
+
+                    <div class="input-field">
+                        <i class="uil uil-envelope-alt"></i>
+                        <input type="email" placeholder="Email" required>
+                    </div>
+
+                    <div class="input-field">
+                        <i class="uil uil-lock"></i>
+                        <input type="password" placeholder="Passward" required>
+                    </div>
+                   <p>Lost Passward <a href="#">Click Here!</a></p>
+                </div>
+                <div class="btn-field">
+                    <button type="button" id="signupBtn">Sign Up</button>
+                    <button type="button" id="signinBtn" class="disable">Sign In </button>
+                </div>
+            </form>
+        </div>
+    </div>
+    <script src="./app.js"></script>
+</body>
+</html>
